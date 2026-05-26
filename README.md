@@ -14,22 +14,28 @@ This admin panel contains useful features for managing my website. It has graphs
 - Clone Repo
 
 ```bash
-cd /path/to/folder
-mkdir adminpanel
-cd adminpanel
-git clone https://github.com/Arvind-4/Admin-Panel .
+mkdir ~/Dev/admin-panel -p
+cd ~/Dev/admin-panel
+git clone https://github.com/arvind-4/admin-panel .
 ```
 
 - Install Dependencies:
 
 ```bash
-cd /path/to/folder/adminpanel
+cd ~/Dev/admin-panel
 npm i
 ```
 
 - Run Dev Server:
 
 ```bash
-cd /path/to/folder/adminpanel
+cd ~/Dev/admin-panel
 npm run dev
+```
+
+- Build the project
+
+```bash
+cd ~/Dev/admin-panel
+npm run build
 ```
